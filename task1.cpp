@@ -1,9 +1,10 @@
 //задача 1
 
 #include <iostream>
-
+#include <ctime>
 using namespace std;
 int main() {
+    srand(time(0));
     int n, a;
     cin >> n >> a;
     
